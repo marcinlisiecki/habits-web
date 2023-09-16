@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from './core/layout/layout.module';
 import { SharedModule } from './shared/shared.module';
 import { NgOptimizedImage } from '@angular/common';
+import { LandingModule } from './landing/landing.module';
 
 @NgModule({
   declarations: [AppComponent],
@@ -15,6 +16,7 @@ import { NgOptimizedImage } from '@angular/common';
     LayoutModule,
     SharedModule,
     NgOptimizedImage,
+    LandingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

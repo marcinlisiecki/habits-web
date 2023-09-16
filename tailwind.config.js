@@ -24,6 +24,19 @@ module.exports = {
       },
     },
     extend: {
+      textColor: {
+        'text-primary': '#fff',
+        'text-secondary': colors.gray[400],
+      },
+      padding: {
+        page: '2rem',
+      },
+      width: {
+        page: '1280px',
+      },
+      maxWidth: {
+        page: '1280px',
+      },
       fontFamily: {
         sans: ['Poppins', ...defaultTheme.fontFamily.sans],
       },

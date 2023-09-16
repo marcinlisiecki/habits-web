@@ -1,17 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LandingGalleryComponent } from './landing-gallery/landing-gallery.component';
+import { GalleryComponent } from './gallery/gallery.component';
 import { HeroComponent } from './hero/hero.component';
 import { HeroAdvantagesComponent } from './hero/hero-advantages/hero-advantages.component';
 import { SharedModule } from '../shared/shared.module';
+import { FeaturesComponent } from './features/features.component';
 
 @NgModule({
   declarations: [
-    LandingGalleryComponent,
+    GalleryComponent,
     HeroComponent,
     HeroAdvantagesComponent,
+    FeaturesComponent,
   ],
-  exports: [LandingGalleryComponent, HeroComponent],
+  exports: [GalleryComponent, HeroComponent, FeaturesComponent],
   imports: [CommonModule, SharedModule],
 })
 export class LandingModule {}

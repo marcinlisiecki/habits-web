@@ -6,6 +6,7 @@ import { HeroAdvantagesComponent } from '@features/landing/hero/hero-advantages/
 import { SharedModule } from '@shared/shared.module';
 import { FeaturesComponent } from '@features/landing/features/features.component';
 import { DownloadComponent } from '@features/landing/download/download.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,6 @@ import { DownloadComponent } from '@features/landing/download/download.component
     FeaturesComponent,
     DownloadComponent,
   ],
-  imports: [CommonModule, SharedModule, NgOptimizedImage],
+  imports: [CommonModule, SharedModule, NgOptimizedImage, TranslateModule],
 })
 export class LandingModule {}

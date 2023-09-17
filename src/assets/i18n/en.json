@@ -1,0 +1,24 @@
+{
+  "hero.heading.white": "Free App that will help you achieve",
+  "hero.heading.primary": "Your Goals.",
+  "hero.subheading": "Discover the power of our free app designed to help you set, track, and achieve your goals. Start your journey to success",
+  "hero.learnMore": "Learn more",
+
+  "hero.advantages.stats.heading": "Stats tracking",
+  "hero.advantages.stats.text": "To assist you in achieving your goals, we actively track your progress",
+  "hero.advantages.free.heading": "Always free",
+  "hero.advantages.free.text": "We will never charge you any fees; our app will always remain free to use",
+  "hero.advantages.design.heading": "Simple design",
+  "hero.advantages.design.text": "We've simplified the design to enhance the app's usability",
+
+  "features.heading.white" : "Implemented features that will",
+  "features.heading.primary": "help you.",
+  "features.twoDayRule.heading": "Two day rule",
+  "features.twoDayRule.text": "The 'two-day rule' suggests that you aim not to miss more than one day in a row. This approach prevents discouragement after missing a single day and makes it easier to get back on track. In our application, your streak remains intact if you miss just one day; you won't lose it for occasional breaks.",
+  "features.backUpGoal.heading": "Back-up goal",
+  "features.backUpGoal.text": "If you find it challenging to complete the full task, consider accomplishing a backup goal that is notably easier and quicker. This approach prevents breaking the habit, allowing you to continue the next day when you'll have more energy and find it much easier!",
+
+  "download.heading.white": "Download and",
+  "download.heading.primary": "try.",
+  "download.button": "Download"
+}

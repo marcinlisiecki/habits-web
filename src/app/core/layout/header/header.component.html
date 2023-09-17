@@ -1,3 +1,37 @@
 <header class="h-14">
-  <app-logo></app-logo>
+  <div
+    class="max-w-page px-page mx-auto flex items-center justify-between h-full"
+  >
+    <app-logo></app-logo>
+
+    <div class="flex gap-x-4 items-center">
+      <img
+        (click)="useLanguage('pl')"
+        [ngClass]="{
+          '!opacity-100': activeLanguage() === 'pl',
+          'opacity-50': activeLanguage() !== 'pl'
+        }"
+        ngSrc="assets/poland-flag-icon.png"
+        alt="Polish flag"
+        class="cursor-pointer rounded-sm transition"
+        [priority]="true"
+        height="24"
+        width="24"
+      />
+
+      <img
+        [ngClass]="{
+          '!opacity-100': activeLanguage() === 'en',
+          'opacity-50': activeLanguage() !== 'en'
+        }"
+        (click)="useLanguage('en')"
+        ngSrc="assets/united-kingdom-flag-icon.png"
+        class="cursor-pointer rounded-sm transition"
+        alt="UK flag"
+        [priority]="true"
+        height="24"
+        width="24"
+      />
+    </div>
+  </div>
 </header>

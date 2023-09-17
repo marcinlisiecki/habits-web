@@ -3,14 +3,16 @@
     <h1
       class="text-center mx-auto text-2xl md:text-3xl lg:text-4xl font-bold max-w-[300px] md:max-w-[350px] lg:max-w-[470px] leading-[1.2]"
     >
-      Download and
-      <span class="text-primary">try.</span>
+      {{ 'download.heading.white' | translate }}
+      <span class="text-primary">{{
+        'download.heading.primary' | translate
+      }}</span>
     </h1>
   </header>
 
   <div class="mx-auto flex justify-center mt-8">
     <a href="assets/habits.apk" download="habits.apk" target="_self"
-      ><app-button>Download</app-button></a
+      ><app-button>{{ 'download.button' | translate }}</app-button></a
     >
   </div>
 </section>

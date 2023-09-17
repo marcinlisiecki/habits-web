@@ -1,0 +1,24 @@
+{
+  "hero.heading.white": "Darmowa aplikacja, która pomoże Ci w osiągnięciu",
+  "hero.heading.primary": "Twoich celów.",
+  "hero.subheading": "Odkryj moc naszej darmowej aplikacji stworzonej, aby pomóc Ci ustalać, śledzić i osiągać cele. Rozpocznij swoją drogę do sukcesu",
+  "hero.learnMore": "Pokaż więcej",
+
+  "hero.advantages.stats.heading": "Śledzenie statystyk",
+  "hero.advantages.stats.text": "Aby pomóc Ci osiągnąć swoje cele, aktywnie śledzimy Twoje postępy",
+  "hero.advantages.free.heading": "Zawsze za darmo",
+  "hero.advantages.free.text": "Nasza aplikacja zawsze będzie dostępna bezpłatnie",
+  "hero.advantages.design.heading": "Prosty wygląd",
+  "hero.advantages.design.text": "Uproszciliśmy wygląd, aby ułatwić korzystanie z aplikacji",
+
+  "features.heading.white" : "Zaimplementowane funkcjonalności, które",
+  "features.heading.primary": "Ci pomogą.",
+  "features.twoDayRule.heading": "Zasada dwóch dni",
+  "features.twoDayRule.text": "Zasada dwóch dni sugeruje polega na tym, aby nie opuszczać więcej niż jeden dzień z rzędu. To podejście zapobiega zniechęceniu po opuszczeniu jednego dnia i ułatwia powrót na właściwe tory. W naszej aplikacji Twoja seria pozostaje nietknięta, jeśli opuścisz tylko jeden dzień; nie stracisz jej z powodu sporadycznych przerw.",
+  "features.backUpGoal.heading": "Cel awaryjny",
+  "features.backUpGoal.text": "Jeśli uważasz, że wykonanie pełnego zadania stanowi wyzwanie, rozważ osiągnięcie celu awaryjnego, który jest zdecydowanie łatwiejszy i szybszy do zrealizowania. To podejście zapobiega zerwaniu nawyku, umożliwiając Ci kontynuację następnego dnia, gdy będziesz miał więcej energii i zadanie będzie znacznie łatwiejsze!",
+
+  "download.heading.white": "Pobierz i",
+  "download.heading.primary": "spróbuj.",
+  "download.button": "Pobierz"
+}

@@ -1,4 +1,10 @@
-<header class="h-14">
+<header
+  class="h-16 sticky left-0 top-0 transition-[height]"
+  [ngClass]="{
+    'bg-dark/50 border-b border-b-gray-900 shadow-lg !h-12 backdrop-blur-xl':
+      isHeaderSmall
+  }"
+>
   <div
     class="max-w-page px-page mx-auto flex items-center justify-between h-full"
   >

@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LogoComponent } from './logo/logo.component';
+import { LogoComponent } from '@shared/logo/logo.component';
 import { RouterLink } from '@angular/router';
-import { ButtonComponent } from './button/button.component';
+import { ButtonComponent } from '@shared/button/button.component';
 
 @NgModule({
   declarations: [LogoComponent, ButtonComponent],
